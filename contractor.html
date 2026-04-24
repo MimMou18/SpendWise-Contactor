@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contractor Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contractor-bg">
+
+<a href="index.html">⬅ Back</a>
+  <h1 id="contractorTitle"></h1>
+
+
+<h3 id="monthlyReport"></h3>
+<br>
+<h3>Add Amount</h3>
+<input type="date" id="date">
+<input type="number" id="amount" placeholder="Amount">
+<button onclick="addExpense()">Add</button>
+
+<br><br>
+<table border="1" width="100%" id="expenseTable">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Amount (Tk)</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody id="expenseBody"></tbody>
+</table>
+
+<h2 id="total"></h2>
+
+
+
+
+  <script src="contractor.js"></script>
+</body>
+</html>

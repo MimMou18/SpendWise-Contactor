@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-bg">
+
+  <div class="dashboard-container">
+
+    <button onclick="logout()">Logout</button>
+
+    <h1>🏗️ SpendWise Dashboard</h1>
+
+    
+
+    <br><br>
+
+    <input type="text" id="contractorName" placeholder="Enter Contractor Name">
+    <button onclick="addContractor()">Add Contractor</button>
+
+    <br><br>
+
+    <input type="text" id="search" placeholder="Search Contractor" onkeyup="searchContractor()">
+
+    <ul id="contractorList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
